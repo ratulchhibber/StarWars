@@ -32,7 +32,6 @@ class CharactersVC: UIViewController {
             }, onError: { error in
                 ActivityIndicator.shared.hide()
                 // Show alert
-                print(error.localizedDescription)
             }).disposed(by: disposeBag)
     }
     
@@ -42,8 +41,6 @@ class CharactersVC: UIViewController {
             .subscribe(onCompleted: {
                 ActivityIndicator.shared.hide()
                 self.routeToCharacterDetails(for: index)
-                print(self.viewModel.dataModel(for: index)
-                )
             }) { (error) in
                 ActivityIndicator.shared.hide()
 
