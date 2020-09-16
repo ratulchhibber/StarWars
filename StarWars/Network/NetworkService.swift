@@ -12,7 +12,7 @@ import Moya
 
 protocol NetworkServiceProtocol {
     func fetchCharacters() -> Single<Characters>
- //   func fetchFilmsForCharacter(for url: [String]) -> Observable<[Film]>
+    func fetchFilm(for id: String) -> Single<Film>
 }
 
 class NetworkService: NetworkServiceProtocol {
@@ -23,5 +23,11 @@ class NetworkService: NetworkServiceProtocol {
         return provider.rx.request(.fetchCharacters)
             .filterSuccessfulStatusAndRedirectCodes()
             .map(Characters.self)
+    }
+    
+    func fetchFilm(for id: String) -> Single<Film> {
+        return provider.rx.request(.fetchFilmDetails(id: id))
+        .filterSuccessfulStatusAndRedirectCodes()
+        .map(Film.self)
     }
 }

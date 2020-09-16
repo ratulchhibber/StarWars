@@ -16,7 +16,7 @@ enum APIError: Error {
 
 enum API {
     case fetchCharacters
-  //  case fetchFilmDetails(id: String)
+    case fetchFilmDetails(id: String)
 }
 
 extension API: TargetType {
@@ -32,8 +32,8 @@ extension API: TargetType {
         switch self {
         case .fetchCharacters:
             return "/people"
-   //     case .fetchFilmDetails(let id):
-   //         return "films/\(id)"
+        case .fetchFilmDetails(let id):
+            return "/films/\(id)"
         }
     }
 
@@ -51,9 +51,5 @@ extension API: TargetType {
 
     var headers: [String: String]? {
         return nil
-    }
-    
-    var validationType: ValidationType {
-      return .successCodes
     }
 }
