@@ -8,4 +8,9 @@ target 'StarWars' do
   # Pods for StarWars
 	pod 'Moya/RxSwift', '~> 14.0'
 	pod 'lottie-ios'
+
+target 'StarWarsTests' do
+    inherit! :search_paths
+  end
+
 end

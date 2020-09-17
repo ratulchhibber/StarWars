@@ -24,7 +24,7 @@ class CharactersVM {
         return characters
     }
     
-    private func getFilmIds(for selectedIndex: Int) -> [String] {
+    func getFilmIds(for selectedIndex: Int) -> [String] {
         filmModel.removeAll()
         let characterName = characters[selectedIndex]
         guard let movies = characterModel?.results.first(where: { result -> Bool in

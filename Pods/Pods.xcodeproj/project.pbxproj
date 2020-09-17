@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,7 @@
 		0F94E975A208B026E869CBEB547C805F /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8A6806A6383244F7B9A8EDA5515BD /* Sample.swift */; };
 		0FECFBBDDCAB235CFCD505A013D2212A /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = B975235853A3440877E4101EEB539A51 /* Create.swift */; };
 		113F47C73EE6BD2FD94CE7F0131D7963 /* LRUAnimationCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3995B48AFAAFDFAA1DEFBB500ED16D /* LRUAnimationCache.swift */; };
+		11B7D23D83BAAFFA211AB9A74EAE85BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3447C20464437D8FB4F2773907DB5988 /* Foundation.framework */; };
 		1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C79865A0847A40FDA6984DC500627F5 /* AFError.swift */; };
 		1212C94DCD6110D6FD59682B542871AF /* PassThroughOutputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1BB95D465F61AE2980BBDE9A35395 /* PassThroughOutputNode.swift */; };
 		133DFB5C6578D1EB9DBE5D6D97C4E5D4 /* AssetLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EC7FCBB42A0B92DEBF23DA503D655D /* AssetLibrary.swift */; };
@@ -54,6 +55,7 @@
 		24B88C42401EBE8B694EBAEE2D4F5732 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC97FB59DA337E64B2F28EC43E6D28 /* Event.swift */; };
 		26441EAD257B878842E16D9A2CBB7AF9 /* FloatValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F3285DB8BD87F63984DDCF49B76CFF /* FloatValueProvider.swift */; };
 		278E20871516968C78C23C333A624D67 /* PrimitiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CD75D07AB5399E7EB9BB6123E3C73D /* PrimitiveSequence.swift */; };
+		27CC9DD50BE983D56FEDAF0A616F1210 /* Pods-StarWarsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 195D60726FD89249AB80D085C60325C3 /* Pods-StarWarsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F286BD8463F13C75DD9EA8E1D880DA /* DispatchQueue+Alamofire.swift */; };
 		2825A5EB4AF728329361C25135C7C019 /* MathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA9E0B016A0C4676167A02B81493BF /* MathKit.swift */; };
 		28B410124BA98ECF1807C19E90A3496E /* PolygonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E01B456B9B8581D65D36D3951527F /* PolygonNode.swift */; };
@@ -70,6 +72,7 @@
 		2F536C2AF3B103298C6C094BB4A7FD37 /* Moya-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FC597C37F9FEBB450FDF12150822A9 /* Moya-dummy.m */; };
 		311A9AEC5A4E1D48E888D5F1EAC4C3EC /* Vectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF386972F75A7FE6842C86D24869E450 /* Vectors.swift */; };
 		3179AB0B410C8E9745A25FBC8083CCCB /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB8BDE0FAEEBD0BE3B7C5B0509450B1 /* AtomicInt.swift */; };
+		322833A3D36EFD8D7EF01A80F5DD5873 /* Pods-StarWarsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD94AF89D2DDB3739EDBED387E22F446 /* Pods-StarWarsTests-dummy.m */; };
 		32680E541E5CFE25E71F8BC04EE7E131 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8867EA22C10360A3FA58731907132AF3 /* Delay.swift */; };
 		32BE7904E1C29B3CE8C38F9692B75EBC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E527FF58ADE0EA6B912DAF1758A5D1C /* Task.swift */; };
 		32E8FA68B5ABDD28DB0283C0257DF3D3 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68387EBFAB19B2BBB5A64A2F1AB1449B /* AnimationView.swift */; };
@@ -191,7 +194,7 @@
 		7FD07B719F3C7BD7BDEDE04BFC68906A /* MultiTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FCBF74BACDD7D43155EBFFC7065D45 /* MultiTarget.swift */; };
 		810BA53E0FFCF7C23CCD8B76C102D997 /* RxSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E52B458925D11540D985B8A55BA1A280 /* RxSwift-dummy.m */; };
 		8152E1761FC0540FCFD6D7622EC2904B /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3703F70F529E2315E5C47BC581889F10 /* Errors.swift */; };
-		8264908522D238CF371E8365E42A4368 /* Pods-StarWars-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DCC07782F6ED817FDCA1D161575FB83 /* Pods-StarWars-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8264908522D238CF371E8365E42A4368 /* Pods-StarWars-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8824C4ED2B8A5399BE57669551AC74FF /* Pods-StarWars-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83AA8DC7F18522685E0172E0BD35F126 /* BehaviorSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB36427705CDB801E44FFE12A14E77E /* BehaviorSubject.swift */; };
 		83C043A8DFF48F9927F2B8369295C926 /* DispatchQueueConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7FC3C5D3F4B7733FC4AE801D8FE81A /* DispatchQueueConfiguration.swift */; };
 		85794C1E4A7DF398C62C13D57990914C /* PathOutputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0544FC5714006F8D2E70C9D113C07C /* PathOutputNode.swift */; };
@@ -238,7 +241,7 @@
 		9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2A7AC4ED226B32CDF5C65A10AF0A66 /* RetryPolicy.swift */; };
 		A0984EC68B044E44BC79B12DAB62A450 /* MoyaProvider+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4142C8AE47C98A2A6DA6FA7B713AEE /* MoyaProvider+Defaults.swift */; };
 		A296BC49C67CFDBBF9BC4D559D0775D9 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDD455D0B69343F73E0D4476646371B /* Reactive.swift */; };
-		A323BFDF758A7AED0F8D829A6C2E7DFD /* Pods-StarWars-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD721FECCC80DA56FA2D85CC954D538 /* Pods-StarWars-dummy.m */; };
+		A323BFDF758A7AED0F8D829A6C2E7DFD /* Pods-StarWars-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9514DAB6272FE9A2C54A1283F8C762E /* Pods-StarWars-dummy.m */; };
 		A392366E9EAB56ACB2D4B63F3921C28C /* AnonymousObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F705693A2A4E4D3CC47C889BA85BEFE /* AnonymousObserver.swift */; };
 		A4019A5461D5DB72C38D08CA4E854675 /* TakeLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360A43991148104E71A889BE1B981EA6 /* TakeLast.swift */; };
 		A419C496DB3C554EE1C3DF03825C35F5 /* PointValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D36016DE7859262075A3E458CC3687A /* PointValueProvider.swift */; };
@@ -390,6 +393,13 @@
 			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
 			remoteInfo = RxSwift;
 		};
+		A33DA6F09CCB91BBA2D5EA214309CCE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CD43E18AEABEF3B07452ADB0A2B1677;
+			remoteInfo = "Pods-StarWars";
+		};
 		A54C206361989962A18C8CBBD783A535 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -425,7 +435,6 @@
 		0534DE9B55BDAF36D9C1F29D3E0B3219 /* SolidLayerModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SolidLayerModel.swift; path = "lottie-swift/src/Private/Model/Layers/SolidLayerModel.swift"; sourceTree = "<group>"; };
 		064D62300EA8D9C32A7F0EE7160C6932 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = RxSwift/Observables/Map.swift; sourceTree = "<group>"; };
 		08157DFE0883198F4CAD7886BBA70B2D /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
-		08C1F292F80CA5B3059681BC8177D567 /* Pods-StarWars-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarWars-acknowledgements.markdown"; sourceTree = "<group>"; };
 		098DAB294EC3AD6A8A261CA89A8DED1C /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		09A9980D5342288C2040BCAF41CED8C1 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		0ABE02DECFD0471B8EF9DEF95B9C1DEB /* ColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorExtension.swift; path = "lottie-swift/src/Private/Utility/Primitives/ColorExtension.swift"; sourceTree = "<group>"; };
@@ -434,7 +443,6 @@
 		0CDB143E1ED7AEBFDA2DD59B57BC061C /* Plugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plugin.swift; path = Sources/Moya/Plugin.swift; sourceTree = "<group>"; };
 		0CF2519C51528E2529F692036FA85BCC /* RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSwift.debug.xcconfig; sourceTree = "<group>"; };
 		0DB25D5F7CB9B1A24D8B45FED7D17952 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		0DD721FECCC80DA56FA2D85CC954D538 /* Pods-StarWars-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarWars-dummy.m"; sourceTree = "<group>"; };
 		0EBAC11AE211A260365372018EE1CEA9 /* SingleValueProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleValueProvider.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueProviders/SingleValueProvider.swift"; sourceTree = "<group>"; };
 		0F33AD31FC44D872BDC8038684A5CF8F /* TextAnimatorNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAnimatorNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/Text/TextAnimatorNode.swift"; sourceTree = "<group>"; };
 		0FBE710FAAA9F94C1E8CC5E5EDA7997A /* AnyNodeProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyNodeProperty.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/AnyNodeProperty.swift"; sourceTree = "<group>"; };
@@ -447,12 +455,14 @@
 		15E9CA12A9114D858DF79283BA337822 /* ShapeTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeTransform.swift; path = "lottie-swift/src/Private/Model/ShapeItems/ShapeTransform.swift"; sourceTree = "<group>"; };
 		1614D9BDC6ADBB2CCA31160CE58AD05D /* RequestTypeWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTypeWrapper.swift; path = Sources/Moya/RequestTypeWrapper.swift; sourceTree = "<group>"; };
 		16E4518E95496C32D94382789E868E9F /* SchedulerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchedulerType.swift; path = RxSwift/SchedulerType.swift; sourceTree = "<group>"; };
+		16EE4BFA7C3E0E4F3464D5BCE5ED4E18 /* Pods-StarWars-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarWars-acknowledgements.markdown"; sourceTree = "<group>"; };
 		177033B23EA13287234A3C613766B102 /* StartWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StartWith.swift; path = RxSwift/Observables/StartWith.swift; sourceTree = "<group>"; };
 		1770A83762CD2B6E90FDA277A9D9D976 /* CombineLatest+Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CombineLatest+Collection.swift"; path = "RxSwift/Observables/CombineLatest+Collection.swift"; sourceTree = "<group>"; };
 		18241A718B4AF46641D8DE9D698E524A /* GradientFillRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientFillRenderer.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/GradientFillRenderer.swift"; sourceTree = "<group>"; };
 		18753E877E7302F703F4D2CCBDFFA248 /* NetworkLoggerPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkLoggerPlugin.swift; path = Sources/Moya/Plugins/NetworkLoggerPlugin.swift; sourceTree = "<group>"; };
 		1903757B608C79A7A9209405771B56FD /* Marker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Marker.swift; path = "lottie-swift/src/Private/Model/Objects/Marker.swift"; sourceTree = "<group>"; };
 		192B78973569BB1E12C8EA9CED6ED24E /* Zip+Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Zip+Collection.swift"; path = "RxSwift/Observables/Zip+Collection.swift"; sourceTree = "<group>"; };
+		195D60726FD89249AB80D085C60325C3 /* Pods-StarWarsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarWarsTests-umbrella.h"; sourceTree = "<group>"; };
 		195F0292D4D5E3E4803CAE9F7D104B01 /* PathNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Protocols/PathNode.swift"; sourceTree = "<group>"; };
 		19B43434021F03C11B5BC2808AD4137E /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
 		1ADBED9D0F98FCAEBC0C77F23F45FEF6 /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
@@ -461,7 +471,6 @@
 		1C23C13B72B238C87DA9D3455A401F5B /* Single+Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Single+Response.swift"; path = "Sources/RxMoya/Single+Response.swift"; sourceTree = "<group>"; };
 		1C84DDA84CD70EBC827E526FA8FDAFAC /* AnimationPublic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationPublic.swift; path = "lottie-swift/src/Public/Animation/AnimationPublic.swift"; sourceTree = "<group>"; };
 		1CC298789354B7888ABEB60C4E1E577B /* Disposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposable.swift; path = RxSwift/Disposable.swift; sourceTree = "<group>"; };
-		1DCC07782F6ED817FDCA1D161575FB83 /* Pods-StarWars-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarWars-umbrella.h"; sourceTree = "<group>"; };
 		1F221DC050B7E39BCD740E4298A2A6AB /* Observable+Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Observable+Response.swift"; path = "Sources/RxMoya/Observable+Response.swift"; sourceTree = "<group>"; };
 		1FB30C2EB6EAB4E7E7092BB370EB1406 /* RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxSwift.release.xcconfig; sourceTree = "<group>"; };
 		211088FD50A7EAB319EE7F5001C4EA20 /* CurrentThreadScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentThreadScheduler.swift; path = RxSwift/Schedulers/CurrentThreadScheduler.swift; sourceTree = "<group>"; };
@@ -470,6 +479,7 @@
 		22F0A908463D6AA2A3BCDACC60B3B1CF /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = "lottie-swift/src/Private/Model/Animation.swift"; sourceTree = "<group>"; };
 		23B5DDF58E142BEF8828D89FE5A3F647 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		24A4BDF117B2D441CAB8ECE9A4FF78FE /* ScheduledDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledDisposable.swift; path = RxSwift/Disposables/ScheduledDisposable.swift; sourceTree = "<group>"; };
+		25C0DD6E4CBB1AA8BF463224AB79420E /* Pods-StarWarsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarWarsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		26028B39E812C3065BC0604996D69070 /* RetryWhen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryWhen.swift; path = RxSwift/Observables/RetryWhen.swift; sourceTree = "<group>"; };
 		263A4A37FC8936B6C10E49969332A517 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
 		2711B9383598402C33672A130E82BD0B /* FillRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillRenderer.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/FillRenderer.swift"; sourceTree = "<group>"; };
@@ -485,6 +495,7 @@
 		328119E3C63385374519F52892F60FEC /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		32A2ED82D03BD02FC1EB39AB35A79C04 /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = RxSwift/Observables/Sequence.swift; sourceTree = "<group>"; };
 		3375A38832E61E31C8C4C1AC907D03AA /* FillNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderNodes/FillNode.swift"; sourceTree = "<group>"; };
+		337F0EF7D178F235C5D7266F67F469F6 /* Pods-StarWars.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarWars.modulemap"; sourceTree = "<group>"; };
 		33FAFD6C8735AC368F73076376EDCB14 /* Glyph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Glyph.swift; path = "lottie-swift/src/Private/Model/Text/Glyph.swift"; sourceTree = "<group>"; };
 		3439EAEFB02E0AD74133079D36DC5C73 /* StrokeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrokeRenderer.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/StrokeRenderer.swift"; sourceTree = "<group>"; };
 		3447C20464437D8FB4F2773907DB5988 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -609,12 +620,13 @@
 		8272476BE5A484107AE3FE2E06CC5211 /* SerialDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDispatchQueueScheduler.swift; path = RxSwift/Schedulers/SerialDispatchQueueScheduler.swift; sourceTree = "<group>"; };
 		829742DB8278670DC7F5C42451A1721F /* ShapeCompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeCompositionLayer.swift; path = "lottie-swift/src/Private/LayerContainers/CompLayers/ShapeCompositionLayer.swift"; sourceTree = "<group>"; };
 		82D6EDAFA6174390B40BC3034D75EEAE /* ShareReplayScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShareReplayScope.swift; path = RxSwift/Observables/ShareReplayScope.swift; sourceTree = "<group>"; };
-		8377D823271B41B4A82EFF3D2A01F1EC /* Pods-StarWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarWars.debug.xcconfig"; sourceTree = "<group>"; };
 		839A3E5355FD06F2E5C99DB76E9C21D7 /* SerialDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDisposable.swift; path = RxSwift/Disposables/SerialDisposable.swift; sourceTree = "<group>"; };
 		85D50165F9D53C55C89085F4E62D2730 /* Timer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timer.swift; path = RxSwift/Observables/Timer.swift; sourceTree = "<group>"; };
 		860189913CFB3EB99BB6FAFAA234B455 /* ShapeRenderLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeRenderLayer.swift; path = "lottie-swift/src/Private/NodeRenderSystem/RenderLayers/ShapeRenderLayer.swift"; sourceTree = "<group>"; };
 		863FE9D7A138A66470A666B9EDC7A400 /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = RxSwift/Observables/Window.swift; sourceTree = "<group>"; };
 		87629A0A8BBD7F074B09923AFE17EDEC /* AsMaybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsMaybe.swift; path = RxSwift/Observables/AsMaybe.swift; sourceTree = "<group>"; };
+		8776133F4D04B61C59A463C6D6D95C0F /* Pods-StarWarsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarWarsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8824C4ED2B8A5399BE57669551AC74FF /* Pods-StarWars-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarWars-umbrella.h"; sourceTree = "<group>"; };
 		8867EA22C10360A3FA58731907132AF3 /* Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = RxSwift/Observables/Delay.swift; sourceTree = "<group>"; };
 		88BC43FBC27E8877D24F77D28BF4C9F0 /* MainScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainScheduler.swift; path = RxSwift/Schedulers/MainScheduler.swift; sourceTree = "<group>"; };
 		8905223636F511FA3487952C9A440BD1 /* RxSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-umbrella.h"; sourceTree = "<group>"; };
@@ -643,7 +655,7 @@
 		95F939E66101AB4C18E8A59E63D10087 /* Group.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Group.swift; path = "lottie-swift/src/Private/Model/ShapeItems/Group.swift"; sourceTree = "<group>"; };
 		96EC7FCBB42A0B92DEBF23DA503D655D /* AssetLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetLibrary.swift; path = "lottie-swift/src/Private/Model/Assets/AssetLibrary.swift"; sourceTree = "<group>"; };
 		9701673DA2F8EB89580810F67AA8FBC3 /* AnonymousDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnonymousDisposable.swift; path = RxSwift/Disposables/AnonymousDisposable.swift; sourceTree = "<group>"; };
-		972DA29836A7891C02D67B27AB588AB0 /* Pods-StarWars-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarWars-frameworks.sh"; sourceTree = "<group>"; };
+		9717BC3B863F5B6FD3E1AF5C5EA41970 /* Pods-StarWars-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarWars-acknowledgements.plist"; sourceTree = "<group>"; };
 		98066E3D0FF9F2FC19C11B1517B343CC /* ImageCompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCompositionLayer.swift; path = "lottie-swift/src/Private/LayerContainers/CompLayers/ImageCompositionLayer.swift"; sourceTree = "<group>"; };
 		981EA43696D9F85D1CF20C3348AE3949 /* Sink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sink.swift; path = RxSwift/Observables/Sink.swift; sourceTree = "<group>"; };
 		989548A6481C636509B59BE6C3DF772D /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
@@ -666,15 +678,14 @@
 		9FEBC4707824644753E4A33FA44E4A0F /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		A04368F934600C1DC26944EBAEF2C7DC /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
 		A1E82BC3E860D1E739ACE340A0AAA525 /* DistinctUntilChanged.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DistinctUntilChanged.swift; path = RxSwift/Observables/DistinctUntilChanged.swift; sourceTree = "<group>"; };
-		A207AE435A066FC05A4DE90DFA550412 /* Pods-StarWars-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarWars-Info.plist"; sourceTree = "<group>"; };
 		A259DCF82274B84A7A38B6C8616158EC /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RxSwift/Observables/Optional.swift; sourceTree = "<group>"; };
 		A2A3396FA7F299412A9252AB0B421634 /* LayerModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerModel.swift; path = "lottie-swift/src/Private/Model/Layers/LayerModel.swift"; sourceTree = "<group>"; };
 		A2C7EB4C910A7EA4706F6EE57D629362 /* Trim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trim.swift; path = "lottie-swift/src/Private/Model/ShapeItems/Trim.swift"; sourceTree = "<group>"; };
 		A2EFAB5340C7673FF99907A1210DDD42 /* CompatibleAnimationKeypath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompatibleAnimationKeypath.swift; path = "lottie-swift/src/Public/iOS/Compatibility/CompatibleAnimationKeypath.swift"; sourceTree = "<group>"; };
 		A3FF1CDA10AA1F826EBE1C4EA2876896 /* BooleanDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanDisposable.swift; path = RxSwift/Disposables/BooleanDisposable.swift; sourceTree = "<group>"; };
-		A41EED70D47DD3B82EEAA5D8B86DB012 /* Pods-StarWars.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarWars.modulemap"; sourceTree = "<group>"; };
 		A472EB7A4B1C1710F28F8AEE1CAC35D9 /* SynchronizedOnType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedOnType.swift; path = RxSwift/Concurrency/SynchronizedOnType.swift; sourceTree = "<group>"; };
 		A5FA776CE423C9BC2284C3BDD51A93DC /* Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Font.swift; path = "lottie-swift/src/Private/Model/Text/Font.swift"; sourceTree = "<group>"; };
+		A6485A35CA77953F44B5A3FB2306B26A /* Pods-StarWarsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarWarsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A6572677CEE878AD282DBC2DF3E594C6 /* SwitchIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchIfEmpty.swift; path = RxSwift/Observables/SwitchIfEmpty.swift; sourceTree = "<group>"; };
 		A79DC52CEC920B45FA4A4B0BBA602D9F /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
 		A8C8BF3A494ACDD941DC59709D607CDA /* EllipseNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EllipseNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/EllipseNode.swift"; sourceTree = "<group>"; };
@@ -704,6 +715,7 @@
 		B975235853A3440877E4101EEB539A51 /* Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Create.swift; path = RxSwift/Observables/Create.swift; sourceTree = "<group>"; };
 		BA3DFE3EE086730C8B8DE2CE4C667309 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		BC2931D8BBB4B39D7C55DD85B0B17A5A /* DefaultIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultIfEmpty.swift; path = RxSwift/Observables/DefaultIfEmpty.swift; sourceTree = "<group>"; };
+		BD94AF89D2DDB3739EDBED387E22F446 /* Pods-StarWarsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarWarsTests-dummy.m"; sourceTree = "<group>"; };
 		BE7DB93FAFA2AD2BD94F0403979E56BE /* AnyValueProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyValueProvider.swift; path = "lottie-swift/src/Public/DynamicProperties/AnyValueProvider.swift"; sourceTree = "<group>"; };
 		BFCCD5B8AA6D074AFD28556B7291A019 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		C018C3472F50C6DE98DE789D814B8EDD /* CompositionLayersInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompositionLayersInitializer.swift; path = "lottie-swift/src/Private/LayerContainers/Utility/CompositionLayersInitializer.swift"; sourceTree = "<group>"; };
@@ -718,10 +730,10 @@
 		C4C66E8DE47844962CC604216002C91D /* NodePropertyMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodePropertyMap.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/NodePropertyMap.swift"; sourceTree = "<group>"; };
 		C6B417BCC57CC6E657C1C3100883D5A0 /* Generate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generate.swift; path = RxSwift/Observables/Generate.swift; sourceTree = "<group>"; };
 		C7F49C5B0DE0EC2F379AEA408BA9C42F /* StarNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/StarNode.swift"; sourceTree = "<group>"; };
-		C81A36FC9BB1C6ADD84E4F83A1DCC4D9 /* Pods-StarWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarWars.release.xcconfig"; sourceTree = "<group>"; };
 		C898F3482556438335DF5AB6CC8C9746 /* GradientStroke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientStroke.swift; path = "lottie-swift/src/Private/Model/ShapeItems/GradientStroke.swift"; sourceTree = "<group>"; };
 		C8A8E2EA4CF354FD3184889FDBB75E7B /* WithLatestFrom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WithLatestFrom.swift; path = RxSwift/Observables/WithLatestFrom.swift; sourceTree = "<group>"; };
 		C911256B04A4F348ACE78D6FDA08705B /* AnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationContext.swift; path = "lottie-swift/src/Private/Utility/Helpers/AnimationContext.swift"; sourceTree = "<group>"; };
+		CA6D5AA73BC0A75A032EC4BCC4F77352 /* Pods-StarWarsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarWarsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CAB7B6563B0BE15A993961A7127922A4 /* BundleImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleImageProvider.swift; path = "lottie-swift/src/Public/iOS/BundleImageProvider.swift"; sourceTree = "<group>"; };
 		CB4E3895905022AFB1ED88DC78A562C8 /* AsyncSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncSubject.swift; path = RxSwift/Subjects/AsyncSubject.swift; sourceTree = "<group>"; };
 		CC0544FC5714006F8D2E70C9D113C07C /* PathOutputNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathOutputNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/PathOutputNode.swift"; sourceTree = "<group>"; };
@@ -737,10 +749,12 @@
 		D2D9763E4E44305BC96003B48F52D4B9 /* CredentialsPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsPlugin.swift; path = Sources/Moya/Plugins/CredentialsPlugin.swift; sourceTree = "<group>"; };
 		D39BC51B0C383383807135200F2E5931 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		D4996292D5C08BB1AB946D25D499B5FB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		D5E50795EA131C6AFD0383B0E01E5A58 /* Pods-StarWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarWars.release.xcconfig"; sourceTree = "<group>"; };
 		D67B7C2E4E43ECD29FEBED185A4128B5 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = Sources/Moya/Endpoint.swift; sourceTree = "<group>"; };
 		D6C4BE04C289B5C40E7010F67E6F2951 /* AnimationTextProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationTextProvider.swift; path = "lottie-swift/src/Public/TextProvider/AnimationTextProvider.swift"; sourceTree = "<group>"; };
 		D6CD75D07AB5399E7EB9BB6123E3C73D /* PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrimitiveSequence.swift; path = RxSwift/Traits/PrimitiveSequence.swift; sourceTree = "<group>"; };
 		D8E93732783C790CECE33BF9EA1F4DAB /* NullCompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NullCompositionLayer.swift; path = "lottie-swift/src/Private/LayerContainers/CompLayers/NullCompositionLayer.swift"; sourceTree = "<group>"; };
+		D9514DAB6272FE9A2C54A1283F8C762E /* Pods-StarWars-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarWars-dummy.m"; sourceTree = "<group>"; };
 		D98A63FD72D1F83AE37D15F61F19C0A1 /* DisposeBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBase.swift; path = RxSwift/Disposables/DisposeBase.swift; sourceTree = "<group>"; };
 		DA288DDF2FBF469ADAEC4E0895AC64F9 /* VirtualTimeScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VirtualTimeScheduler.swift; path = RxSwift/Schedulers/VirtualTimeScheduler.swift; sourceTree = "<group>"; };
 		DA57B4BA45B38C1EE5C668EDC8E9A025 /* ImmediateSchedulerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImmediateSchedulerType.swift; path = RxSwift/ImmediateSchedulerType.swift; sourceTree = "<group>"; };
@@ -749,13 +763,16 @@
 		DBDE4E3E035BE52BD16DA6A3475E923C /* Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transform.swift; path = "lottie-swift/src/Private/Model/Objects/Transform.swift"; sourceTree = "<group>"; };
 		DCA4B8428A95BFBC19DF898F9DD98842 /* Catch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catch.swift; path = RxSwift/Observables/Catch.swift; sourceTree = "<group>"; };
 		DD0235994ABDC3478C05D738A7B75A66 /* PreCompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreCompositionLayer.swift; path = "lottie-swift/src/Private/LayerContainers/CompLayers/PreCompositionLayer.swift"; sourceTree = "<group>"; };
+		DE7310F49666D819F0D850BCCDFDB539 /* Pods-StarWarsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarWarsTests.modulemap"; sourceTree = "<group>"; };
 		DF0FA8AC14D8F3381F7B4ADB3B6BC413 /* Materialize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Materialize.swift; path = RxSwift/Observables/Materialize.swift; sourceTree = "<group>"; };
 		DF17D9417AD024F2242A0141C5779A01 /* LayerImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerImageProvider.swift; path = "lottie-swift/src/Private/LayerContainers/Utility/LayerImageProvider.swift"; sourceTree = "<group>"; };
 		DF386972F75A7FE6842C86D24869E450 /* Vectors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Vectors.swift; path = "lottie-swift/src/Public/Primitives/Vectors.swift"; sourceTree = "<group>"; };
 		DF56747C62090A6DEC0E4B553C6DC57C /* Never.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Never.swift; path = RxSwift/Observables/Never.swift; sourceTree = "<group>"; };
+		DFB95626D0070E90620E27643D6D387F /* Pods-StarWarsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarWarsTests-Info.plist"; sourceTree = "<group>"; };
 		E020C987425AE9382169283A0C1F36E7 /* LockOwnerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockOwnerType.swift; path = RxSwift/Concurrency/LockOwnerType.swift; sourceTree = "<group>"; };
 		E022D34F969DF5FC589AADD5C86EE398 /* Empty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = RxSwift/Observables/Empty.swift; sourceTree = "<group>"; };
 		E0D1FB585767CF14A4AAA6DAC1A0959B /* AsSingle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsSingle.swift; path = RxSwift/Observables/AsSingle.swift; sourceTree = "<group>"; };
+		E0D8859B05AE8F0D962BD943F8081E53 /* Pods-StarWars-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarWars-Info.plist"; sourceTree = "<group>"; };
 		E2D36FE20B069DFD4166315DD1FCB4AB /* CompoundBezierPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompoundBezierPath.swift; path = "lottie-swift/src/Private/Utility/Primitives/CompoundBezierPath.swift"; sourceTree = "<group>"; };
 		E319016BD462292DF594DE71E45009B8 /* GradientStrokeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientStrokeRenderer.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/GradientStrokeRenderer.swift"; sourceTree = "<group>"; };
 		E33F10EDEE78F826BDE9C71045F0B70E /* AnimationContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationContainer.swift; path = "lottie-swift/src/Private/LayerContainers/AnimationContainer.swift"; sourceTree = "<group>"; };
@@ -769,6 +786,7 @@
 		E8647674202EAB8AB0C3DD47677DECEB /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
 		E8BF1BA2C450A8FB35AC253EB3334ED2 /* ElementAt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementAt.swift; path = RxSwift/Observables/ElementAt.swift; sourceTree = "<group>"; };
 		E8FFD14971A8E9D40744B983553CC82B /* First.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = First.swift; path = RxSwift/Observables/First.swift; sourceTree = "<group>"; };
+		EBF9F43B1AF5C469BB258B941E9A5A08 /* Pods-StarWars-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarWars-frameworks.sh"; sourceTree = "<group>"; };
 		ED555851A4A5F5E71347DB152414234E /* Keyframe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keyframe.swift; path = "lottie-swift/src/Private/Model/Keyframes/Keyframe.swift"; sourceTree = "<group>"; };
 		EE4142C8AE47C98A2A6DA6FA7B713AEE /* MoyaProvider+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Defaults.swift"; path = "Sources/Moya/MoyaProvider+Defaults.swift"; sourceTree = "<group>"; };
 		EE50A1ADEC7F82B44406A8F926F73A8C /* ToArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToArray.swift; path = RxSwift/Observables/ToArray.swift; sourceTree = "<group>"; };
@@ -776,6 +794,7 @@
 		EF3995B48AFAAFDFAA1DEFBB500ED16D /* LRUAnimationCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LRUAnimationCache.swift; path = "lottie-swift/src/Public/AnimationCache/LRUAnimationCache.swift"; sourceTree = "<group>"; };
 		EF9266CBCEE9BFB1AF51F588649B3CE4 /* AnyEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyEncodable.swift; path = Sources/Moya/AnyEncodable.swift; sourceTree = "<group>"; };
 		F003B7F1903AAFE9D947521D813D720A /* ObservableType+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+Extensions.swift"; path = "RxSwift/ObservableType+Extensions.swift"; sourceTree = "<group>"; };
+		F0A4114353CE756A57C6888C557FA371 /* Pods-StarWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarWars.debug.xcconfig"; sourceTree = "<group>"; };
 		F412B60EC60D6C6B88499E8AD49997D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F43A2A35B9BA93E9C9696DBBB2E486E5 /* Repeater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Repeater.swift; path = "lottie-swift/src/Private/Model/ShapeItems/Repeater.swift"; sourceTree = "<group>"; };
 		F48C596312183204B92FE352A7DD2BE9 /* lottie-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lottie-ios-prefix.pch"; sourceTree = "<group>"; };
@@ -786,11 +805,11 @@
 		F70D7D523F0839F1AF722A0176358F66 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
 		F714858E36DEC2E3370299FD76E864FB /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = RxSwift/Observables/Error.swift; sourceTree = "<group>"; };
 		F898B9D44A0E677AA66897AD51DACF03 /* AnyObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyObserver.swift; path = RxSwift/AnyObserver.swift; sourceTree = "<group>"; };
-		F8AB03115F5C03008B4FB69371B8472B /* Pods-StarWars-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarWars-acknowledgements.plist"; sourceTree = "<group>"; };
 		F8B87C7BA567D36642402FD16CA74D84 /* Reduce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reduce.swift; path = RxSwift/Observables/Reduce.swift; sourceTree = "<group>"; };
 		F91FDED65F2950D8F0EE190C1D3769CA /* Moya-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Moya-Info.plist"; sourceTree = "<group>"; };
 		F9FF829FC1803CD3137D0114C50E7BB8 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		FAB438728F224BFD5F9CD19A291F1F72 /* MoyaProvider+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Rx.swift"; path = "Sources/RxMoya/MoyaProvider+Rx.swift"; sourceTree = "<group>"; };
+		FB14F2BD9F9C59019D2606B5F61A5A29 /* Pods_StarWarsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StarWarsTests.framework; path = "Pods-StarWarsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5E7A144878F1CC75AE84D32CA36DA2 /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = RxSwift/Observable.swift; sourceTree = "<group>"; };
 		FBB72FA98B4D4E8E8CAC80AE68F1196D /* Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debug.swift; path = RxSwift/Observables/Debug.swift; sourceTree = "<group>"; };
 		FC2BC2A4D82388EE4153C22E33FE917E /* Completable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Completable.swift; path = RxSwift/Traits/Completable.swift; sourceTree = "<group>"; };
@@ -805,6 +824,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2EC73145D38519C034EEA859AF5906C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B7D23D83BAAFFA211AB9A74EAE85BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D0E474D62025CE5F16E392E7D87AF3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -990,41 +1017,17 @@
 			path = "lottie-ios";
 			sourceTree = "<group>";
 		};
-		19AA8DBA894E488F2ACC93A1D2367B7C /* Products */ = {
+		2246729CFEEFDCB8D55564B8E422A69E /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
 				51BA97E8B5085EFFB47BC9C0B785CEA7 /* Lottie.framework */,
 				3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */,
 				95BAB4D53AF92F944D4C5DA0EB565CB2 /* Pods_StarWars.framework */,
+				FB14F2BD9F9C59019D2606B5F61A5A29 /* Pods_StarWarsTests.framework */,
 				809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1A6506B69E3E15A769EE3EF3B8ED20E2 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				363D92894A8C613F34AE7EC82807E656 /* Pods-StarWars */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		363D92894A8C613F34AE7EC82807E656 /* Pods-StarWars */ = {
-			isa = PBXGroup;
-			children = (
-				A41EED70D47DD3B82EEAA5D8B86DB012 /* Pods-StarWars.modulemap */,
-				08C1F292F80CA5B3059681BC8177D567 /* Pods-StarWars-acknowledgements.markdown */,
-				F8AB03115F5C03008B4FB69371B8472B /* Pods-StarWars-acknowledgements.plist */,
-				0DD721FECCC80DA56FA2D85CC954D538 /* Pods-StarWars-dummy.m */,
-				972DA29836A7891C02D67B27AB588AB0 /* Pods-StarWars-frameworks.sh */,
-				A207AE435A066FC05A4DE90DFA550412 /* Pods-StarWars-Info.plist */,
-				1DCC07782F6ED817FDCA1D161575FB83 /* Pods-StarWars-umbrella.h */,
-				8377D823271B41B4A82EFF3D2A01F1EC /* Pods-StarWars.debug.xcconfig */,
-				C81A36FC9BB1C6ADD84E4F83A1DCC4D9 /* Pods-StarWars.release.xcconfig */,
-			);
-			name = "Pods-StarWars";
-			path = "Target Support Files/Pods-StarWars";
 			sourceTree = "<group>";
 		};
 		4B9AA4644B66ECCCF6B4BB81733E1905 /* Alamofire */ = {
@@ -1188,14 +1191,30 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		BEC5E68276368656568E5230F49FAC7D /* Pods-StarWarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE7310F49666D819F0D850BCCDFDB539 /* Pods-StarWarsTests.modulemap */,
+				A6485A35CA77953F44B5A3FB2306B26A /* Pods-StarWarsTests-acknowledgements.markdown */,
+				CA6D5AA73BC0A75A032EC4BCC4F77352 /* Pods-StarWarsTests-acknowledgements.plist */,
+				BD94AF89D2DDB3739EDBED387E22F446 /* Pods-StarWarsTests-dummy.m */,
+				DFB95626D0070E90620E27643D6D387F /* Pods-StarWarsTests-Info.plist */,
+				195D60726FD89249AB80D085C60325C3 /* Pods-StarWarsTests-umbrella.h */,
+				25C0DD6E4CBB1AA8BF463224AB79420E /* Pods-StarWarsTests.debug.xcconfig */,
+				8776133F4D04B61C59A463C6D6D95C0F /* Pods-StarWarsTests.release.xcconfig */,
+			);
+			name = "Pods-StarWarsTests";
+			path = "Target Support Files/Pods-StarWarsTests";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				4FD61B8C50813C8D0244E82079579052 /* Frameworks */,
 				858AE896F6C3F15E2B3C83A7CA149834 /* Pods */,
-				19AA8DBA894E488F2ACC93A1D2367B7C /* Products */,
-				1A6506B69E3E15A769EE3EF3B8ED20E2 /* Targets Support Files */,
+				2246729CFEEFDCB8D55564B8E422A69E /* Products */,
+				EB1133F2ED03BF6C544AC4083733BB89 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1212,6 +1231,15 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		EB1133F2ED03BF6C544AC4083733BB89 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6D5BFF0EF9B0E6135D0A26403A0D1CD /* Pods-StarWars */,
+				BEC5E68276368656568E5230F49FAC7D /* Pods-StarWarsTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		F3003F1AEA2B4FB98A2620317423C477 /* RxSwift */ = {
@@ -1373,6 +1401,23 @@
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
+		F6D5BFF0EF9B0E6135D0A26403A0D1CD /* Pods-StarWars */ = {
+			isa = PBXGroup;
+			children = (
+				337F0EF7D178F235C5D7266F67F469F6 /* Pods-StarWars.modulemap */,
+				16EE4BFA7C3E0E4F3464D5BCE5ED4E18 /* Pods-StarWars-acknowledgements.markdown */,
+				9717BC3B863F5B6FD3E1AF5C5EA41970 /* Pods-StarWars-acknowledgements.plist */,
+				D9514DAB6272FE9A2C54A1283F8C762E /* Pods-StarWars-dummy.m */,
+				EBF9F43B1AF5C469BB258B941E9A5A08 /* Pods-StarWars-frameworks.sh */,
+				E0D8859B05AE8F0D962BD943F8081E53 /* Pods-StarWars-Info.plist */,
+				8824C4ED2B8A5399BE57669551AC74FF /* Pods-StarWars-umbrella.h */,
+				F0A4114353CE756A57C6888C557FA371 /* Pods-StarWars.debug.xcconfig */,
+				D5E50795EA131C6AFD0383B0E01E5A58 /* Pods-StarWars.release.xcconfig */,
+			);
+			name = "Pods-StarWars";
+			path = "Target Support Files/Pods-StarWars";
+			sourceTree = "<group>";
+		};
 		FE5A4CDCC69A59184CAAB935B57F1F93 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -1388,6 +1433,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0F7E288DABF4CAD018ACA6043D1C4571 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CC9DD50BE983D56FEDAF0A616F1210 /* Pods-StarWarsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1699665B56976CE5784FE86E7B372CF2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1491,6 +1544,25 @@
 			productReference = 3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B480BCA8560A64242C8746FB4B79F991 /* Pods-StarWarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F375B28FD333D8D8B7D77BA748BF7C2B /* Build configuration list for PBXNativeTarget "Pods-StarWarsTests" */;
+			buildPhases = (
+				0F7E288DABF4CAD018ACA6043D1C4571 /* Headers */,
+				0633011F79ACCFDCBE197E6DB0C6340F /* Sources */,
+				2EC73145D38519C034EEA859AF5906C8 /* Frameworks */,
+				BF1367645272AD8E836D030F895197B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B569EA059CE1A86DBDD4EB198D53D4CB /* PBXTargetDependency */,
+			);
+			name = "Pods-StarWarsTests";
+			productName = "Pods-StarWarsTests";
+			productReference = FB14F2BD9F9C59019D2606B5F61A5A29 /* Pods_StarWarsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82AEBBC70AA17D65EDC8947EED57F401 /* Build configuration list for PBXNativeTarget "RxSwift" */;
@@ -1537,7 +1609,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 10.0";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1545,7 +1617,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 19AA8DBA894E488F2ACC93A1D2367B7C /* Products */;
+			productRefGroup = 2246729CFEEFDCB8D55564B8E422A69E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1553,6 +1625,7 @@
 				0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */,
 				17F9141D333DA1A7BE5937F227221070 /* Moya */,
 				0CD43E18AEABEF3B07452ADB0A2B1677 /* Pods-StarWars */,
+				B480BCA8560A64242C8746FB4B79F991 /* Pods-StarWarsTests */,
 				EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */,
 			);
 		};
@@ -1587,6 +1660,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF1367645272AD8E836D030F895197B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA58BC30DB29990B56348603EF9B1F29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1597,6 +1677,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0633011F79ACCFDCBE197E6DB0C6340F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322833A3D36EFD8D7EF01A80F5DD5873 /* Pods-StarWarsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2C8326877F6A9617C2FBE9BD15D95B59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2014,6 +2102,12 @@
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
 			targetProxy = 5210E18E803B371F006D469F7283F550 /* PBXContainerItemProxy */;
 		};
+		B569EA059CE1A86DBDD4EB198D53D4CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-StarWars";
+			target = 0CD43E18AEABEF3B07452ADB0A2B1677 /* Pods-StarWars */;
+			targetProxy = A33DA6F09CCB91BBA2D5EA214309CCE0 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -2054,9 +2148,47 @@
 			};
 			name = Release;
 		};
+		0AF23BC9F5C0D4DE66672C8E19BC7B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C0DD6E4CBB1AA8BF463224AB79420E /* Pods-StarWarsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarWarsTests/Pods-StarWarsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarWarsTests/Pods-StarWarsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2ED39348813D5C1C7F00876998A49309 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8377D823271B41B4A82EFF3D2A01F1EC /* Pods-StarWars.debug.xcconfig */;
+			baseConfigurationReference = F0A4114353CE756A57C6888C557FA371 /* Pods-StarWars.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2200,6 +2332,45 @@
 			};
 			name = Release;
 		};
+		594D7D03899114F5A94AEED844543620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8776133F4D04B61C59A463C6D6D95C0F /* Pods-StarWarsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StarWarsTests/Pods-StarWarsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StarWarsTests/Pods-StarWarsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		80FBF1B05E31A624FE253A065DCFC9FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 658B381F330190A4C0E259573D28594E /* lottie-ios.release.xcconfig */;
@@ -2238,7 +2409,7 @@
 		};
 		87B15C6642DED3166C24D30095491A86 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C81A36FC9BB1C6ADD84E4F83A1DCC4D9 /* Pods-StarWars.release.xcconfig */;
+			baseConfigurationReference = D5E50795EA131C6AFD0383B0E01E5A58 /* Pods-StarWars.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2559,6 +2730,15 @@
 			buildConfigurations = (
 				43098495E83F6B48A17CE341366E739E /* Debug */,
 				80FBF1B05E31A624FE253A065DCFC9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F375B28FD333D8D8B7D77BA748BF7C2B /* Build configuration list for PBXNativeTarget "Pods-StarWarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF23BC9F5C0D4DE66672C8E19BC7B4C /* Debug */,
+				594D7D03899114F5A94AEED844543620 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
