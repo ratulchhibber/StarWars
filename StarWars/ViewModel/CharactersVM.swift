@@ -70,6 +70,7 @@ extension CharactersVM {
     func fetchFilms(for selectedId: Int) -> Completable {
         let allCompletables = getFilmIds(for: selectedId)
                               .map { fetchFilm(for: $0) }
+        // zip achieves the same thing here what group dispatch would achieve in a non-rx variant
         return Completable.zip(allCompletables)
     }
     
