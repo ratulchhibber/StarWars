@@ -16,9 +16,13 @@ class CharactersVM {
     let provider = MoyaProvider<API>()
     let network = NetworkService()
     
+    var characterResults: [Result]? {
+        characterModel?.results.sorted(by: { $0.name < $1.name })
+    }
+    
     var characters: [String] {
         var characters = [String]()
-        characterModel?.results.forEach {
+        characterResults?.forEach {
             characters.append($0.name)
         }
         return characters
@@ -27,7 +31,7 @@ class CharactersVM {
     func getFilmIds(for selectedIndex: Int) -> [String] {
         filmModel.removeAll()
         let characterName = characters[selectedIndex]
-        guard let movies = characterModel?.results.first(where: { result -> Bool in
+        guard let movies = characterResults?.first(where: { result -> Bool in
             result.name == characterName
         }) else {
             return []
@@ -48,7 +52,7 @@ struct CharacterDataModel {
 extension CharactersVM {
     
     func dataModel(for index: Int) -> CharacterDataModel {
-        return CharacterDataModel(character: characterModel?.results[index],
+        return CharacterDataModel(character: characterResults?[index],
                                   films: filmModel)
     }
 }
